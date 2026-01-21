@@ -14,19 +14,44 @@
             <label for="email">
                 Email*
                 <div>
-                    <input type="email" id="email" required autofocus />
+                    <input type="email" id="email" placeholder="Email" required autofocus />
                 </div>
             </label>
         </div>
 
         <!-- Entrada para a senha -->
-         <div>
-            <label>
+        <div>
+            <label for="senha">
+                Senha*
                 <div>
-                    <input />
+                    <input type="password" id="senha" placeholder="Senha" minlength="8" />
                 </div>
             </label>
+        </div>
+
+        <!-- Entrada de Username -->
+        <div>
+            <label for="username">
+                Username*
+                <div>
+                    <input type="text" id="username" placeholder="Username" />
+                </div>
+            </label>
+        </div>
+
+        <!-- Checkbox -->
+         <div>
+            <label for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                Desejo compartilhar minhas informações
+            </label>
          </div>
+
+        <!-- Botão -->
+        <div>
+            <button>Cadastrar</button>
+        </div>
+
     </form>
 </body>
 
